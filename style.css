@@ -37,14 +37,7 @@ body{
     animation: sunGlow 4s infinite ease-in-out;
 }
 
-@keyframes sunGlow{
-    0%{
-        box-shadow:0 0 60px rgba(255,200,0,.8);
-    }
-    50%{
-        box-shadow:0 0 90px rgba(255,200,0,1);
-    }
-}
+
 
 
 .clouds{
@@ -103,30 +96,7 @@ body{
     top:50px;
     animation:cloud3 22s linear infinite alternate;
 }
-@keyframes cloud1{
-0%{
-left:50px;
-}
-100%{
-left:-150px;
-}
-}
-@keyframes cloud2{
-0%{
-left:400px;
-}
-100%{
-left:1200px;
-}
-}
-@keyframes cloud3{
-0%{
-left:800px;
-}
-100%{
-left:-150px;
-}
-}
+
 .surfboard{
     position:absolute;
     width:120px;
@@ -149,34 +119,7 @@ left:-150px;
     background:rgba(255,255,255,.3);
 }
 
-@keyframes boardRide{
 
-0%{
-left:15%;
-bottom:145px;
-}
-
-25%{
-left:28%;
-bottom:200px;
-}
-
-50%{
-left:42%;
-bottom:225px;
-}
-
-75%{
-left:28%;
-bottom:180px;
-}
-
-100%{
-left:15%;
-bottom:145px;
-}
-
-}
 .surfer{
     position:absolute;
     width:40px;
@@ -213,34 +156,7 @@ bottom:145px;
     top:12px;
 }
 
-@keyframes surferRide{
 
-0%{
-    left:18%;
-    bottom:180px;
-}
-
-25%{
-    left:31%;
-    bottom:235px;
-}
-
-50%{
-    left:45%;
-    bottom:255px;
-}
-
-75%{
-    left:31%;
-    bottom:205px;
-}
-
-100%{
-    left:18%;
-    bottom:180px;
-}
-
-}
 
 .splash{
     position:absolute;
@@ -355,4 +271,92 @@ bottom:145px;
     bottom:-100px;
     left:95px;
 }
+}
+@keyframes sunGlow{
+    0%{
+        box-shadow:0 0 60px rgba(255,200,0,.8);
+    }
+    50%{
+        box-shadow:0 0 90px rgba(255,200,0,1);
+    }
+}
+@keyframes cloud1{
+0%{
+left:50px;
+}
+100%{
+left:-150px;
+}
+}
+@keyframes cloud2{
+0%{
+left:400px;
+}
+100%{
+left:1200px;
+}
+}
+@keyframes cloud3{
+0%{
+left:800px;
+}
+100%{
+left:-150px;
+}
+}
+@keyframes boardRide{
+
+0%{
+left:15%;
+bottom:145px;
+}
+
+25%{
+left:28%;
+bottom:200px;
+}
+
+50%{
+left:42%;
+bottom:225px;
+}
+
+75%{
+left:28%;
+bottom:180px;
+}
+
+100%{
+left:15%;
+bottom:145px;
+}
+
+}
+@keyframes surferRide{
+
+0%{
+    left:18%;
+    bottom:180px;
+}
+
+25%{
+    left:31%;
+    bottom:235px;
+}
+
+50%{
+    left:45%;
+    bottom:255px;
+}
+
+75%{
+    left:31%;
+    bottom:205px;
+}
+
+100%{
+    left:18%;
+    bottom:180px;
+}
+
 }
