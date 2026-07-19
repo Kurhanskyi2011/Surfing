@@ -9,7 +9,7 @@ body{
 
 .picture{
     width:100%;
-    height:0vh;
+    height:100vh;
     position:relative;
     overflow:hidden;
 }
@@ -285,6 +285,15 @@ bottom:145px;
     left:80px;
     animation:drop5 2.3s infinite;
 }
+.sand{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:8%;
+    background:linear-gradient(#ffcc99,#ffb366);
+}
+
 
 @keyframes drop1{
 
@@ -346,12 +355,4 @@ bottom:145px;
     bottom:-100px;
     left:95px;
 }
-}
-.sand{
-    position:absolute;
-    left:0;
-    bottom:0;
-    width:100%;
-    height:8%;
-    background:linear-gradient(#ffcc99,#ffb366);
 }
